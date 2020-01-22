@@ -1,0 +1,98 @@
+@import url('https://fonts.google.com/specimen/Bitter');
+html body{
+   width: 100%;
+   height: 100%;
+   font-family: Bitter;
+   font-size: 25px;
+   color: #222;
+}
+.navbar{
+   background-color: rgba(82,64,120,0.9) !important;
+}
+.navbar li a{
+   color: white !important;
+}
+.navbar li a:hover{
+   color: black !important;
+}
+.carousel-inner img{
+   width: 100% !important;
+}
+.carousel-caption{
+   position: absolute;
+   top: 30%;
+}
+.carousel-caption h1{
+   text-shadow: 5px 5px 15px black;
+   font-size: 250%;
+}
+.carousel-caption h3{
+   text-shadow: 5px 5px 15px black;
+}
+.jumbotron{
+   padding-bottom: 1rem;
+   padding-top: 1rem;
+   margin-bottom: 0;
+}
+hr{
+   border: black solid 1px;
+   width: 95%;
+}
+.happy{
+   width: 100%;
+}
+.row-contact{
+   font-size: 1.2rem;
+   background-color: rgb(82,64,120);
+   color: whitesmoke;
+}
+.row-contact p{
+   margin-bottom: 20px;
+}
+.row-contact hr{
+   width: 75%;
+}
+.fa-free-code-camp{
+   font-size: 5rem;
+   color: #f27835;
+}
+.fa-facebook{
+   color: #4267B2;
+}
+.fa-snapchat{
+   color: #F7EC1E;
+}
+.fa-whatsapp{
+   color: #40C351;
+}
+.fa-skype{
+   color: #28A8EA;
+}
+.fa-viber{
+   color: #834995;
+}
+.fa-contact{
+   font-size: 3rem;
+}
+
+@media(max-width: 992px){
+   .carousel-caption{
+      top: 20%;
+   }
+}
+@media(max-width: 768px){
+   .carousel-caption{
+      top: 1%;
+   }
+}
+@media(max-width: 576px){
+   .carousel-caption{
+      top: 1%;
+   }
+   .carousel-caption h1{
+      font-size: 100%;
+   }
+   .carousel-caption h3{
+      font-size: 70%;
+   }
+}

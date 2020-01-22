@@ -1,0 +1,38 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+  	-moz-box-sizing: border-box;
+  	-webkit-box-sizing: border-box;
+}
+.slides{
+   height: 100% !important;
+   width: 100% !important;
+}
+
+@media (min-width: 576px) {
+   .slide-show{
+      height: 800px !important;
+   }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+   .slide-show{
+      height: 780px !important;
+   }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+   .slide-show{
+      height: 752px !important;
+   }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+   .slide-show{
+      height: 724px !important;
+   }
+}
