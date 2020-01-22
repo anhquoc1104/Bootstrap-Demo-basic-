@@ -1,0 +1,44 @@
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+   <link rel="stylesheet" href="./sources/bootstrap/css/bootstrap.min.css">
+   <link rel="stylesheet" href="./sources/font-awesome/css/all.css">
+   <link rel="stylesheet" href="./login.css">
+   <title>Login</title>
+</head>
+
+<body>
+   <div class="container-fluid bg">
+      <div class="row justify-content-center">
+         <div class="col-xs-12 col-sm-6 col-md-3 row-container">
+            <h1>LOGIN TO WEBSITE</h1>
+            <div class="form-group">
+               <label for="email">Email</label>
+               <input id="email" class="form-control" type="email" placeholder="email...">
+            </div>
+            <p class="errorEmail"></p>
+            <div class="form-group">
+               <label for="password">Password</label>
+               <input id="password" class="form-control" type="password" placeholder="password...">
+            </div>
+            <p class="errorPassword"></p>
+            <div class="form-check">
+               <input id="check" class="for  m-check-input" type="checkbox">
+               <label for="check" class="for m-check-label">Remember Account</label>
+            </div>
+            <button class=" btn btn-success btn-block my-3" type="submit">Login</button>
+         </div>
+      </div>
+   </div>
+
+   <script src="./sources/jquery-3.4.1.min.js"></script>
+   <script src="./sources/popper.min.js"></script>
+   <script src="./sources/bootstrap/js/bootstrap.min.js"></script>
+   <script src="./login.js"></script>
+</body>
+
+</html>
